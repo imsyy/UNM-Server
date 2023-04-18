@@ -2,12 +2,12 @@
   "name": "unm-server",
   "version": "1.0.0",
   "description": "网易云解灰-API服务",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "./node_modules/.bin/nodemon app.js",
-    "prd": "pm2 start app.js",
-    "build": "node app.js"
+    "start": "node index.js",
+    "dev": "./node_modules/.bin/nodemon index.js",
+    "prd": "pm2 start index.js",
+    "build": "node index.js"
   },
   "author": "imsyy",
   "license": "MIT",
