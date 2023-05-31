@@ -1,7 +1,6 @@
 const Router = require("koa-router");
 const match = require("@unblockneteasemusic/server");
 const router = new Router();
-const getProxyUrl = require("../utils/proxy");
 
 // 根目录
 router.get("/", async (ctx) => {
